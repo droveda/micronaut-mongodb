@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: demo
+mongodb:
+  uri: mongodb://root:example@${MONGO_HOST:localhost}:${MONGO_PORT:27017}/my_test
